@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<Sample>
+	<ID>250701A-GG</ID>
+	<Maker>Law</Maker>
+	<User email="gng5123@psu.edu">Gokul Gopakumar</User>
+	<Project>In(Ga)Sb QDs</Project>
+	<Category>Research</Category>
+	<PrimarySystem ID="MBE3">Law-III-V-MBE</PrimarySystem>
+	<PrimaryTechnique>MBE</PrimaryTechnique>
+	<Size></Size>
+	<Holder></Holder>
+	<Substrate>
+		<ID>10x10</ID>
+		<Maker></Maker>
+		<Materials layers="1">
+			<Material layer="1">
+				<Name>InAs</Name>
+				<Orientation>(100)</Orientation>
+			</Material>
+		</Materials>
+	</Substrate>
+	<Materials layers="2">
+		<Material layer="1" recipe="1">
+			<Name>InAs</Name>
+			<Orientation>(100)</Orientation>
+			<Thickness units="nm">200</Thickness>
+		</Material>
+		<Material layer="2" recipe="1">
+			<Name>InSb dots</Name>
+			<Orientation>(100)</Orientation>
+			<Thickness units="nm">3</Thickness>
+		</Material>
+	</Materials>
+	<Recipes number="1">
+		<Recipe number="1" start="2025/07/01 14:33:33.92">
+			<Name></Name>
+			<Log></Log>
+			<System ID="MBE3">Law-III-V-MBE</System>
+			<Runtime>00:00:00.00</Runtime>
+		</Recipe>
+	</Recipes>
+	<Comments></Comments>
+	<Locations>
+		<Location date="2025/07/01 14:33:33.92" position="1">Law-III-V-MBE</Location>
+	</Locations>
+</Sample>

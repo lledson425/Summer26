@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<Sample>
+	<ID>250620A-GG</ID>
+	<Maker>Law</Maker>
+	<User email="gng5123@psu.edu">Gokul Gopakumar</User>
+	<Project>In(Ga)Sb QDs</Project>
+	<Category>Research</Category>
+	<PrimarySystem ID="MBE3">Law-III-V-MBE</PrimarySystem>
+	<PrimaryTechnique>MBE</PrimaryTechnique>
+	<Size></Size>
+	<Holder>H1</Holder>
+	<Substrate>
+		<ID>10x10</ID>
+		<Maker></Maker>
+		<Materials layers="1">
+			<Material layer="1">
+				<Name>InAs</Name>
+				<Orientation>(100)</Orientation>
+			</Material>
+		</Materials>
+	</Substrate>
+	<Materials layers="4">
+		<Material layer="1" recipe="1">
+			<Name>InAs</Name>
+			<Orientation>(100)</Orientation>
+			<Thickness units="nm">200</Thickness>
+		</Material>
+		<Material layer="2" recipe="1">
+			<Name>InSb dots</Name>
+			<Orientation>(100)</Orientation>
+			<Thickness units="nm">2.5</Thickness>
+		</Material>
+		<Material layer="3" recipe="1">
+			<Name>InAs</Name>
+			<Orientation>(100)</Orientation>
+			<Thickness units="nm">50</Thickness>
+		</Material>
+		<Material layer="4" recipe="1">
+			<Name>InSb dots</Name>
+			<Orientation>(100)</Orientation>
+			<Thickness units="nm">2.5</Thickness>
+		</Material>
+	</Materials>
+	<Recipes number="1">
+		<Recipe number="1" start="2025/06/20 14:28:31.79">
+			<Name></Name>
+			<Log></Log>
+			<System ID="MBE3">Law-III-V-MBE</System>
+			<Runtime>00:00:00.00</Runtime>
+		</Recipe>
+	</Recipes>
+	<Comments></Comments>
+	<Locations>
+		<Location date="2025/06/20 14:28:31.79" position="1">Law-III-V-MBE</Location>
+	</Locations>
+</Sample>
