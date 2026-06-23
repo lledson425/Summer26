@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<Sample>
+	<ID>MBE2-260612B-EW</ID>
+	<Maker>2DCC-MIP</Maker>
+	<User email="eaw5727@psu.edu">Eric Welp</User>
+	<Project>R0127</Project>
+	<Category>Research</Category>
+	<PrimarySystem ID="MBE2">Chalcogenide-MBE</PrimarySystem>
+	<PrimaryTechnique>MBE</PrimaryTechnique>
+	<Size></Size>
+	<Holder>EW 5/V</Holder>
+	<Substrate>
+		<ID>(11-20)</ID>
+		<Maker></Maker>
+		<Materials layers="1">
+			<Material layer="1">
+				<Name>Al2O3</Name>
+				<Orientation>(11-20)</Orientation>
+			</Material>
+		</Materials>
+	</Substrate>
+	<Materials layers="1">
+		<Material layer="1" recipe="1">
+			<Name>SnSe</Name>
+			<Orientation>(100)</Orientation>
+			<Thickness units="nm">5</Thickness>
+		</Material>
+	</Materials>
+	<Recipes number="1">
+		<Recipe number="1" start="2026/06/12 11:25:44.47">
+			<Name></Name>
+			<Log></Log>
+			<System ID="MBE2">Chalcogenide-MBE</System>
+			<Runtime>00:00:00.00</Runtime>
+		</Recipe>
+	</Recipes>
+	<Comments></Comments>
+	<Locations>
+		<Location date="2026/06/12 11:25:44.47" position="1">Chalcogenide-MBE</Location>
+		<Location cart="Chalcogenide-Cart" date="2026/06/12 14:02:49.76" position="1">Chalcogenide-Buffer</Location>
+		<Location cart="Oxide-Cart" date="2026/06/12 14:54:58.41" position="1">Chalcogenide-Buffer</Location>
+		<Location cart="Oxide-Cart" date="2026/06/12 14:55:06.80" position="10">Chalcogenide-Buffer</Location>
+		<Location cart="Chalcogenide-Cart" date="2026/06/12 16:53:28.63" position="3">Chalcogenide-Buffer</Location>
+		<Location cart="Chalcogenide-Cart" date="2026/06/12 16:56:50.30" position="3">Chalcogenide-Load-Lock</Location>
+	</Locations>
+</Sample>
