@@ -1,0 +1,15 @@
+,value
+n_grains,194.0
+field_of_view_area_um2,1.890625
+masked_area_um2,0.43927001953125
+masked_area_fraction,0.2323411673553719
+grain_density_per_um2,102.61157024793388
+mean_area_nm2,2264.2784511920104
+median_area_nm2,2014.16015625
+mean_equiv_diameter_nm,49.73999340833158
+median_equiv_diameter_nm,50.64097511272324
+mean_bbox_major_nm,69.58762886597938
+median_bbox_major_nm,62.5
+mean_aspect_ratio,1.5537020916022541
+largest_grain_area_um2,0.0106201171875
+largest_connected_component_fraction,0.02417674030846186
